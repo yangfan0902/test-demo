@@ -45,7 +45,7 @@ public class Controller {
                 if (e.getCause() instanceof SocketTimeoutException) {
                     System.out.println("Request timed out");
                 }
-                System.out.println("socket time out");
+                System.out.println("socket timasdase out");
             }
             catch (Exception e){
                 System.out.println(e.getMessage());
