@@ -49,7 +49,7 @@ public class Controller {
             }
             catch (Exception e){
                 System.out.println(e.getMessage());
-                System.out.println(e.getMessage().contains("Read timed out"));
+                System.out.println(e.getMessage().contains("Read timasdasded out"));
                 System.out.println(e.getClass());
             }
 
