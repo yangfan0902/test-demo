@@ -90,6 +90,7 @@
 
     </dependencies>
     <build>
+        <finalName>test-demo</finalName>
         <plugins>
             <plugin>
 
