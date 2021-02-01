@@ -7,6 +7,10 @@
     <groupId>org.example</groupId>
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>test-demo</name>
+    <description>test-demo</description>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
