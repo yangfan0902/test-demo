@@ -107,7 +107,7 @@ public class Controller {
 
     @RequestMapping("/hello")
     public String clear() {
-        return "hello world !";
+        return "hello world !!";
     }
 
 
