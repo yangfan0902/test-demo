@@ -14,11 +14,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAsync
 public class ApplicationStarter {
 
-    @Bean
-    MeterRegistryCustomizer<MeterRegistry> configurer(@Value("${spring.application.name}") String applicationName, @Value("${spring.project.name}") String projectName) {
-        return (registry) -> registry.config().commonTags("application",applicationName,"app", applicationName,"project",projectName);
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(ApplicationStarter.class, args);
     }
