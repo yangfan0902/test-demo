@@ -1,5 +1,5 @@
 # 基于远景智能基础镜像构建：java7_centos7.4
-FROM harbor.eniot.io/envisioniot/java8:latest
+#FROM harbor.eniot.io/envisioniot/java8:latest
 
 # MAINTAINER（必填项，表明编译镜像的owner）
 MAINTAINER fan.yang6 <fan.yang6@envision-digital.com>
